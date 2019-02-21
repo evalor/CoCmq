@@ -1,0 +1,21 @@
+{
+    "name": "evalor/co-cmq",
+    "description": "tencent cloud message queue for swoole corountine",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "evalor",
+            "email": "mipone@foxmail.com"
+        }
+    ],
+    "require": {
+        "evalor/co-requests": "^1.0",
+        "easyswoole/spl": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "evalor\\coCloudMessageQueue\\": "src/"
+        }
+    }
+}
